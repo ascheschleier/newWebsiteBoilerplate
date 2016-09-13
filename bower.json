@@ -1,0 +1,27 @@
+{
+  "name": "website BoilerPlate",
+  "authors": [
+    "David Ziegler"
+  ],
+  "description": "stuff is there to start",
+  "license": "-",
+  "homepage": "-",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "gsap": "^1.19.0",
+    "modernizr": "^3.3.1",
+    "gridle": "^2.0.48"
+  },
+  "ignore": [
+    "source",
+    "spec",
+    ".bowerrc",
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc",
+    "bower.json",
+    "gruntfile.js",
+    "package.json",
+    "README.md"
+  ]
+}

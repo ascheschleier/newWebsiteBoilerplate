@@ -1,0 +1,21 @@
+%textElementPadding {
+    padding: 25px;
+    @include gridle_state(b) {
+        padding: 25px;
+    }
+    @include gridle_state(bt) {
+        padding: 25px;
+    }
+    @include gridle_state(btt) {
+        padding: 20px;
+    }
+    @include gridle_state(t) {
+        padding: 15px;
+    }
+    @include gridle_state(tm) {
+        padding: 15px;
+    }
+    @include gridle_state(m) {
+        padding: 20px;
+    }
+}

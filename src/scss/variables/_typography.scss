@@ -1,0 +1,76 @@
+/**
+**  Official Font sizes
+------------------------------- */
+
+//Headlines
+$size-headline-vast: 4.125rem;  //66px
+$size-headline-giant: 2.75rem;  //44px
+$size-headline-big: 2.125rem;  //34px
+$size-headline-medium: 1.75rem;   //28px
+$size-headline-small: 1.43rem;   //23px
+
+//body text
+$size-text-normal: 1.125rem; //18px
+$size-text-medium: 0.935rem; //15px
+$size-text-small: 0.812rem; //13px
+$size-text-tiny: 0.65rem; //~10px
+
+//Title
+$size-text-title: 1rem; //16px
+
+//button
+$size-button-normal: .75em; //12px
+
+
+/**
+**  Helper Variables and Classes
+------------------------------- */
+
+$size-38: 2.375rem;
+$size-34: 2.125rem;
+$size-30: 1.87rem;
+$size-28: 1.75rem;
+$size-25: 1.563rem;
+$size-23: 1.43rem;
+$size-18: 1.125rem;
+$size-15: 0.935rem;
+$size-13: 0.8125rem;
+$size-12: 0.75rem;
+$size-11: 0.68rem;
+
+
+.fs-11 {
+    font-size: $size-11;
+    line-height: 1.4;
+}
+
+.fs-15{
+	font-size: $size-15;
+    line-height: 1.4;
+
+    @include gridle_state(m){
+        font-size: 1.55em;
+    }
+}
+
+.fs-28{
+    font-size: $size-28;
+}
+
+.fs-18{
+    font-size: $size-18;
+    line-height: 1.3;
+}
+
+.fs-30{
+	font-size: $size-30;
+}
+
+.fs-38{
+	font-size: $size-38;
+    line-height: 1.1;
+}
+
+.fs-25{
+    font-size: $size-25;
+}

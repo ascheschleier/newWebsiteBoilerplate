@@ -1,0 +1,12 @@
+// Z-Index Scale
+// --------------------------------------------------
+$zIndex-1:   100;   //lowest for content
+$zIndex-2:   200;   //middle for content
+$zIndex-3:   300;   //highest for content
+$zIndex-4:   400;   //lowest for menu
+$zIndex-5:   500;   //middle for menu
+$zIndex-6:   600;   //highest menu
+$zIndex-7:   700;   //lowest overlays, lightbox etc
+$zIndex-8:   800;   //middle overlays, lightbox etc
+$zIndex-9:   900;   //highest overlays, lightbox etc
+$zIndex-10: 1000;   //this one is reserved for extreme situations, if you have to ask yourself "should i use this?" NO! DONT!

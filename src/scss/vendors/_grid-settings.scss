@@ -1,0 +1,39 @@
+// Import gridle
+@import 'gridle/gridle';
+
+
+// setup the grid (required)
+@include gridle_setup((
+	context : 12,
+	gutter-width : 30px,
+	gutter-bottom : 20px,
+	// gutter-left : 20px,
+	// direction : rtl,
+	// dir-attribute : true,
+	states-classes : true,
+	// classes-prefix : 'gr-'
+));
+
+
+@include gridle_register_state ( m , (
+	gutter-width : 32px,
+	max-width : 567px,
+) );
+
+@include gridle_register_state ( t , (
+	min-width : 568px,
+	gutter-width : 30px,
+	max-width : 1024px,
+) );
+
+@include gridle_register_state ( d , (
+	min-width : 1025px,
+	max-width : 1439px,
+	gutter-width : 30px
+) );
+
+@include gridle_register_state ( large , (
+	min-width : 1440px,
+	gutter-width : 30px
+) );
+

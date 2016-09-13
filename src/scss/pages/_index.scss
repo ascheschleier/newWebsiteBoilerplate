@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    /******************************************
+    *****  MEDIA QUERIES FOR JS ***************
+    *******************************************/
+    &:before {
+        display: none;
+    }
+
+    @include gridle_state(m){
+        &:before {
+            content: "mobile";
+        }
+    }
+    @include gridle_state(t){
+        &:before {
+            content: "tablet";
+        }
+    }
+    @include gridle_state(d){
+        &:before {
+            content: "desktop";
+        }
+    }
+    @include gridle_state(large){
+        &:before {
+            content: "large";
+        }
+    }
+}

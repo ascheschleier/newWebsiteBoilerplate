@@ -1,0 +1,25 @@
+{
+  "name": "website_boilerplate",
+  "version": "0.0.1",
+  "description": "stuff is there to start",
+  "author": "David Ziegler",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "bower": "^1.7.9",
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-responsive-images": "^0.1.9",
+    "grunt-sass": "^1.2.0",
+    "grunt-webfont": "^1.4.0"
+  },
+  "scripts": {
+    "postinstall": "bower install"
+  },
+  "src": "src",
+  "dist": "public"
+}

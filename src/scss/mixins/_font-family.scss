@@ -1,0 +1,23 @@
+@mixin font($style) {
+    @if $style == light {
+        font-family: 'Frutiger-Light';
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+    } @else if $style == medium {
+        font-family: 'Frutiger-Roman';
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+    } @else if $style == regular {
+        font-family: 'Frutiger-Roman';
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+    } @else if $style == bold {
+        font-family: 'Frutiger-Bold';
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+    }
+}

@@ -1,0 +1,19 @@
+/** @define Mixins; use strict */
+
+/**
+ * All the mixins used by the Project.
+ *
+ * include all seperate mixins in this file,
+ * to be imported by _import.scss in src dir
+ *
+ */
+
+
+@import "animate";
+@import "breakpoint";
+@import "clearfix";
+@import "gradient";
+@import "textElementPadding";
+@import "font-family";
+@import "aspect-ratio";
+
